@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  
+  "name": "YouTube watcher",
+  "author": "Grzegorz Kupczyk",
+  "version": "0.1",
+  "description": "Wyświetla komunikat, gdy wykryje nowy film na youtube.",
+  
+  "icons": {
+    "48": "img/ChromeExtension48.png",
+    "16": "img/ChromeExtension16.png",
+    "128": "img/ChromeExtension128.png"
+  },
+  "background":{
+        "scripts": [ 
+            "jQuery.3.2.1.min.js",
+            "background.js"
+        ]
+    },
+  "permissions": [
+      "notifications",
+      "https://www.youtube.com/channel/*"
+  ]
+}
