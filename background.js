@@ -27,7 +27,7 @@
 (function() {
     //ustawienia skryptu
     const version = 0.1;
-    const interval = 0.25 * 60000; //co jaki czas sprawdzać (10 minut)
+    const interval = 10 * 60000; //co jaki czas sprawdzać (10 minut)
     const youtubeprofiles = [
         'https://www.youtube.com/user/MiroslawZelent/videos',
         'https://www.youtube.com/user/wybuchajacebeczki/videos',
